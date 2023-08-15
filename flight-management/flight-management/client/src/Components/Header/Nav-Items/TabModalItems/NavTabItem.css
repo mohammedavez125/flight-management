@@ -1,0 +1,51 @@
+.titleList {
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: change3;
+    list-style: none;
+    margin-top: 0;
+    text-align: left;
+}
+
+@keyframes change3 {
+    0% {
+        opacity: 0;
+        transform: translateZ(0);
+    }
+    
+    5% {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+    
+    20% {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+    
+    40% {
+        opacity: 1;
+        transform: translate3d(0,-33%,0);
+    }
+    
+    60% {
+        opacity: 1;
+        transform: translate3d(0,-33%,0);
+    }
+    
+    80% {
+        opacity: 1;
+        transform: translate3d(0,-70%,0);
+    }
+    
+    90% {
+        opacity: .8;
+        transform: translate3d(0,-70%,0);
+    }
+    
+    100% {
+        opacity: 0;
+        transform: translate3d(0,-70%,0);
+    }
+}
